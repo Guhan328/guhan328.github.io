@@ -1,12 +1,12 @@
 {% assign publications = include.publications %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
-    <h7 class="border-bottom border-gray p-3 mb-0">
+    <h5 class="border-bottom border-gray p-3 mb-0">
         {% if include.title %}
             {{ include.title }}
         {% else %}
             Selected Publications
         {% endif %}
-    </h7>
+    </h5>
 
     {% for item in publications limit:include.limit %}
         <div class="row no-gutters border-bottom border-gray py-2 px-3 align-items-center">
