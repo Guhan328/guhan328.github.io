@@ -1,6 +1,19 @@
 
 
+- title: "Towards Fairness and Green Semantic Communication System: An Anti-discrimination Federated Learning Approach"
+  authors: "**G. Zheng**, Z. Yu, H. Pervaiz, L. Zhang, H. Jung, and S. Hassan"
+  pub: IEEE International Conference on Communications
+  pub_date: 2025
+  #links:
+  #  - ["Link", "https://ieeexplore.ieee.org/abstract/document/10919123"]
 
+
+- title: "Towards Fairness and Green Semantic Communication System: An Anti-discrimination Federated Learning Approach"
+  authors: "**G. Zheng**, Q. Ni, A. Kaushik, and L. Yang"
+  pub: arXiv preprint
+  pub_date: 2025
+  links:
+    - ["Link", "https://arxiv.org/abs/2502.08999"]
 
 
 - title: "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems"
@@ -26,7 +39,7 @@
     - ["Link", "https://ieeexplore.ieee.org/document/10734671"]
 
 - title: "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks"
-  authors: "**G. Zheng**, Qiang Ni, Keivan Navaie, Haris Pervaiz, Geyong Min, Aryan Kaushik, and Charilaos Zarakovitis"
+  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis"
   pub: IEEE Internet of Things Journal
   pub_date: 2024
   links:
@@ -39,7 +52,6 @@
   pub_date: 2024
   links:
     - ["Link", "https://ieeexplore.ieee.org/document/10527365"]    
-
 
 - title: "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading"
   authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz and C. Zarakovitis"
