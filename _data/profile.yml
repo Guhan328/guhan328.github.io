@@ -9,7 +9,6 @@ positions:
 
 
 email: "guhan.zh@gmail.com"
-# cv_link: link-to-your-cv-file
 gscholar: 377WJ7IAAAAJ  # This is an example, replace it with your own Google Scholar ID
 #github: your_github_id
 #twitter: your_twitter_id  # Do not include the '@' symbol
@@ -53,7 +52,7 @@ education:
    logo: /assets/images/badges/lan_logo.svg
    position: Senior Research Associate
    date: Sep. 2019 - Jul. 2021
-  - name: University of Sussex
+ - name: University of Sussex
    logo: /assets/images/badges/sussex_logo.png
    position: Research Assistant
    date: 2023
