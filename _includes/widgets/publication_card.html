@@ -19,7 +19,7 @@
                     {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.pub_date }} {{ item.pub_last }}
                 </p>
             </div>
-            <div class="col-3 text-right small">
+            <div class="col-3 text-right">
                 {% for link in item.links %}
                     {% if link[1].url %}
                         <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
