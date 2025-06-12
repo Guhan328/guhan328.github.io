@@ -47,10 +47,26 @@ education:
   date: 2016 - 2020
 
 
-#awards:
-#- name: Award Name 2
-#  date: 2024
-#- name: Award Name 1 
-#  date: 2021
-#- name: A quick brown fox jumps over the lazy dog and runs away award
-#  date: 2021
+publications:
+  - title: "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading"
+    authors:
+      - name: G. Zheng
+        me: true
+      - name: Q. Ni
+      - name: K. Navaie
+      - name: H. Pervaiz
+    pub: IEEE Journal on Selected Areas in Communications
+    pub_date: 2024
+    links:
+      - ["Link", "https://ieeexplore.ieee.org/abstract/document/10445211"]
+
+  - title: "Edge Intelligence for 6G Networks: Vision, Enabling Technologies, and Applications"
+    authors:
+      - name: Guhan Zheng
+        me: true
+      - name: Keivan Navaie
+      - name: Qiang Ni
+    pub: IEEE Wireless Communications
+    pub_date: 2024
+    links:
+      - ["DOI", "https://doi.org/10.1109/MWC.2024.9876543"]
