@@ -20,7 +20,7 @@
             </span>
           </div>
           <p class="mt-12 mb-0 small text-body">
-            {{ item.authors }} — 
+            {{ item.authors | markdownify }} — 
             {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
           </p>
         </div>
@@ -41,7 +41,7 @@
             </span>
           </div>
           <p class="mt-1 mb-0 small text-body">
-            {{ item.authors }} — 
+            {{ item.authors | markdownify }} — 
             {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
           </p>
         </div>
