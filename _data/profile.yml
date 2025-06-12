@@ -31,10 +31,12 @@ portrait_url: /assets/images/photos/Guhan Zheng.png
 
 experience:
 - name: Lancaster University
+  url: "https://www.lancaster.ac.uk/"
   logo: /assets/images/badges/lan_logo.png
   position: Senior Research Associate
   date: 2023 - 2025
 - name: University of Sussex
+  url: "https://www.sussex.ac.uk/"
   logo: /assets/images/badges/sussex_logo.png
   position: Research Assistant
   date: 2023
@@ -42,10 +44,12 @@ experience:
 
 education:
 - name: Lancaster University
+  url: "https://www.lancaster.ac.uk/"
   logo: /assets/images/badges/lan_logo.png
   position: Ph.D. in Communication Systems
   date: 2020 - 2024
 - name: Zhengzhou University
+  url: "https://english.zzu.edu.cn/"
   logo: /assets/images/badges/zzu.png
   position: B.Eng. in Telecommunication Engineering
   date: 2016 - 2020
