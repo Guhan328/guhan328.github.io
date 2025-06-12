@@ -1,13 +1,49 @@
+
+
+
+
+
+- title: "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems"
+  authors: "**G. Zheng**, Q. Ni, K. Navaie, and C. Zarakovitis"
+  pub: IEEE Transactions on Intelligent Transportation Systems
+  pub_date: 2025
+  links:
+    - ["Link", "https://ieeexplore.ieee.org/abstract/document/10919123"]
+
+
 - title: "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz"
+  authors: "**G. Zheng**, Q. Ni, K. Navaie, and H. Pervaiz"
   pub: IEEE Journal on Selected Areas in Communications
   pub_date: 2024
   links:
-    - ["Link", "https://ieeexplore.ieee.org/abstract/document/10445211"]
+    - ["Link", "https://ieeexplore.ieee.org/document/10445211"]
 
-- title: "Edge Intelligence for 6G Networks: Vision, Enabling Technologies, and Applications"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz"
-  pub: IEEE Wireless Communications
+- title: "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System"
+  authors: "**G. Zheng**, Q. Ni, and Y. Lu"
+  pub: IEEE Transactions on Intelligent Transportation Systems
   pub_date: 2024
   links:
-    - ["DOI", "https://doi.org/10.1109/MWC.2024.9876543"]
+    - ["Link", "https://ieeexplore.ieee.org/document/10734671"]
+
+- title: "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks"
+  authors: "**G. Zheng**, Qiang Ni, Keivan Navaie, Haris Pervaiz, Geyong Min, Aryan Kaushik, and Charilaos Zarakovitis"
+  pub: IEEE Internet of Things Journal
+  pub_date: 2024
+  links:
+    - ["Link", "https://ieeexplore.ieee.org/document/10416926"]
+
+
+- title: "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks"
+  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis"
+  pub: IEEE Transactions on Green Communications and Networking
+  pub_date: 2024
+  links:
+    - ["Link", "https://ieeexplore.ieee.org/document/10527365"]    
+
+
+- title: "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading"
+  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz and C. Zarakovitis"
+  pub: IEEE Communications Magazine
+  pub_date: 2023
+  links:
+    - ["Link", "https://ieeexplore.ieee.org/document/10328182"]
