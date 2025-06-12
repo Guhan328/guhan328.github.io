@@ -32,29 +32,27 @@ short_bio: >-
 #    as well as being common in domestic longhair and domestic shorthair cats.
 #  </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
-
-education:
-- name: Lancaster University
-  #logo: /assets/images/badges/zzu_logo.png
-  position: Ph.D. in Communication Systems
-  date: 2020 - 2024
-- name: Zhengzhou University
-  #logo: /assets/images/badges/zzu_logo.png
-  position: B.Eng. in Telecommunication Engineering
-  date: 2016 - 2020
+portrait_url: /assets/images/photos/Guhan Zheng.png
+#portrait_caption: >-
+#  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 experience:
 - name: Lancaster University
-  #logo: /assets/images/badges/zzu_logo.png
   position: Senior Research Associate
   date: 2023 - 2025
 - name: University of Sussex
-  #logo: /assets/images/badges/zzu_logo.png
   position: Research Assistant
   date: 2023
+
+
+education:
+- name: Lancaster University
+  position: Ph.D. in Communication Systems
+  date: 2020 - 2024
+- name: Zhengzhou University
+  position: B.Eng. in Telecommunication Engineering
+  date: 2016 - 2020
+
 
 #awards:
 #- name: Award Name 2
