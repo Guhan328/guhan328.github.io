@@ -15,7 +15,7 @@
                 <p class="mt-0 mb-0 small">
                     {{ item.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
                     {% if item.corresponding %}
-                       <span class="badge badge-danger ml-2">corresponding author</span>
+                       <span style="background-color: #fff3cd; color: #856404; padding: 4px 8px; border-radius: 4px; font-size: 0.85rem;">*corresponding author</span>
                     {% endif %}
                 </p>
                 <p class="mt-0 mb-0 small">
