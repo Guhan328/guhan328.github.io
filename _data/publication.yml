@@ -1,6 +1,4 @@
-
-
-publications:
+publication:
   - title: "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading"
     authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz"
     pub: IEEE Journal on Selected Areas in Communications
