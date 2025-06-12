@@ -17,17 +17,16 @@
                 </p>
                 <p class="mt-0 mb-0 small">
                     {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.pub_date }} {{ item.pub_last }}
-                </p>
-                {% if item.corresponding or item.spotlight %}
-                <p class="mt-1 mb-0 small">
                     {% if item.corresponding %}
+                    <p class="mt-1 mb-0 small">
                         <span class="badge badge-info">corresponding author</span>
                     {% endif %}
-                    {% if item.spotlight %}
-                        <span class="badge badge-warning">Spotlight</span>
-                    {% endif %}
-</p>
-{% endif %}
+                </p>
+                {% if item.spotlight %}
+                <p class="mt-1 mb-0 small">
+                   <span class="badge badge-warning">Spotlight</span>
+                </p>
+                {% endif %}
 
             </div>
             <div class="col-3 text-right">
