@@ -1,17 +1,19 @@
 {% assign publications = include.publications %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h6 class="border-bottom border-gray p-3 mb-0">
-        {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %} 
-        <a href="{{ 'publications' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+        {% if include.title %}
+            {{ include.title }}
+        {% else %}
+            Selected First/ Corresponding Author Publications
+        {% endif %}
     </h6>
 
     {% for item in publications limit:include.limit %}
-        <!-- Publication item start -->
         <div class="row no-gutters border-bottom border-gray py-2 px-3">
             <div class="col-12">
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
                 <p class="mb-1 small">
-                    <strong>{{ item.authors }}</strong> — {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+                    {{ item.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' }} — {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
                 </p>
                 <p class="small mb-0 text-muted abstract-links">
                     {% for link in item.links %}
@@ -24,7 +26,6 @@
                 </p>
             </div>
         </div>
-        <!-- Publication item end -->
     {% endfor %}
 
   
