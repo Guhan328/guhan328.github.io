@@ -1,14 +1,48 @@
-{% assign publications = include.publications %}
+{% assign service = include.service %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h5 class="border-bottom border-gray p-3 mb-0">
         {% if include.title %}
             {{ include.title }}
         {% else %}
-            Selected Publications
+            Service
         {% endif %}
     </h5>
 
-
+<div class="p-3">
+        {% if service.reviewer %}
+            <div class="mb-2">
+                <strong>Reviewer</strong>
+                <ul class="mb-0 pl-3">
+                    {% for item in service.reviewer %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        {% if service.tpc %}
+            <div class="mb-2">
+                <strong>TPC Member</strong>
+                <ul class="mb-0 pl-3">
+                    {% for item in service.tpc %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        {% if service.other %}
+            <div class="mb-2">
+                <strong>Other Services</strong>
+                <ul class="mb-0 pl-3">
+                    {% for item in service.other %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+</div>
 
 
 
