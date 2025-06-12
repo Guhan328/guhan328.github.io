@@ -23,3 +23,9 @@ navbar_title: Home
 
 {% include widgets/publication_card.html publications=site.data.publication %}
 
+{% if site.data.display.homepage.show_service %}
+    {% include widgets/service_card.html service=site.data.service %}
+{% endif %}
+
+
+
