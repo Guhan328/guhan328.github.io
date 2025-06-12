@@ -4,4 +4,6 @@ pages:
 - name: Home
   url: #home
 - name: Publications
+  url: #experiences
+- name: Publications
   url: #publications
