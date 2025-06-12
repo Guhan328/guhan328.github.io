@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Guhan Zheng"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/lan_logo.svg  # Logo is optional
   name: Position 1 with logo
 - name: Position 2 without logo
 
@@ -42,7 +42,7 @@ education:
     Ph.D.
   date: 2020 - 2024
 - name: Zhengzhou University
-  logo: /assets/zzu_logo.png
+  logo: /assets/images/badges/zzu_logo.png
   position: >- 
     Telecommunication Engineering
     B.E.
@@ -50,11 +50,11 @@ education:
 
  experience:
  - name: Lancaster University
-   logo: /assets/lan_logo.svg
+   logo: /assets/images/badges/lan_logo.svg
    position: Senior Research Associate
    date: Sep. 2019 - Jul. 2021
   - name: University of Sussex
-   logo: /assets/sussex_logo.png
+   logo: /assets/images/badges/sussex_logo.png
    position: Research Assistant
    date: 2023
 
