@@ -1,4 +1,4 @@
-primary_name: "Guhan Zheng (郑谷寒)"
+primary_name: "Guhan Zheng"
 secondary_name: ""
 navbar_name: "Guhan Zheng"
 
@@ -38,17 +38,21 @@ portrait_caption: >-
 
 education:
 - name: Lancaster University
+  logo: /assets/images/badges/PKU_red.png
   position: Ph.D. in Communication Systems
   date: 2020 - 2024
 - name: Peking University
+  logo: /assets/images/badges/PKU_red.png
   position: B.Eng. in Telecommunication Engineering
   date: 2016 - 2020
 
 experience:
 - name: Lancaster University
+  logo: /assets/images/badges/PKU_red.png
   position: Senior Research Associate
   date: 2023 - 2025
 - name: University of Sussex
+  logo: /assets/images/badges/PKU_red.png
   position: Research Assistant
   date: 2023
 
