@@ -4,11 +4,11 @@ reviewer:
     - IEEE Transactions on Wireless Communications
     - IEEE Transactions on Communications
     - IEEE Transactions on Green Communications and Networking
-  tpc:
+tpc:
     - IEEE ICC 
     - IEEE GlobeCom 
     - IEEE TrustCom 
-  #other:
+#other:
   #  - Workshop organizer
   #  - Panel member
 
