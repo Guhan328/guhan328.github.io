@@ -11,9 +11,9 @@
     {% for item in publications limit:include.limit %}
         <div class="row no-gutters border-bottom border-gray py-2 px-3 align-items-center">
             <div class="col-9">
-                <h9 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h9>
+                <h8 class="mt-0 mb-1 font-weight-normal small">{{ item.title }}</h8>
                 <p class="mb-0 small">
-                    {{ item.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' }} — {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+                    {{ item.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' }} — {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.pub_date }} {{ item.pub_last }}
                 </p>
             </div>
             <div class="col-3 text-right small">
