@@ -30,7 +30,7 @@
   pub_date: 2024
   links:
     - ["Link", "https://ieeexplore.ieee.org/document/10445211"]
-  #corresponding: true
+  corresponding: true
   spotlight: true
 
 - title: "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System"
