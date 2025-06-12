@@ -1,0 +1,16 @@
+reviewer:
+    - IEEE Journal on Selected Areas in Communications
+    - IEEE Transactions on Mobile Computing
+    - IEEE Transactions on Wireless Communications
+    - IEEE Transactions on Communications
+    - IEEE Transactions on Green Communications and Networking
+  tpc:
+    - IEEE ICC 
+    - IEEE GlobeCom 
+    - IEEE TrustCom 
+  #other:
+  #  - Workshop organizer
+  #  - Panel member
+
+
+
