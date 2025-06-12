@@ -19,7 +19,11 @@
                                                 class="mr-2" 
                                                 style="height: 1em; width: auto;"> 
                                             {% endif %}
-                                            <div>{{ item.name }}</div>
+                                            <div>
+                                                <a href="{{ item.url }}" target="_blank" class="text-dark text-decoration-none">
+                                                     {{ item.name }}
+                                                </a>
+                                            </div>
                                         </div>    
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
@@ -49,7 +53,11 @@
                                                 class="mr-2" 
                                                 style="height: 1em; width: auto;"> 
                                             {% endif %}
-                                            <div>{{ item.name }}</div>
+                                            <div>
+                                                <a href="{{ item.url }}" target="_blank" class="text-dark text-decoration-none">
+                                                     {{ item.name }}
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
