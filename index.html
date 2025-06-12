@@ -21,5 +21,5 @@ navbar_title: Home
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
-    {% include widgets/publication_card.html %}
+    {% include widgets/publication_card.html publications=site.data.publication %}
 {% endif %}
