@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Guhan Zheng"
 
 positions:
-- name: Senior Research Associate at Lancaster University || Ph.D. Degree in Communication Systems
+- name: Senior Research Associate at Lancaster University
 
 
 email: "guhan.zheng@ieee.org"
@@ -31,18 +31,22 @@ portrait_url: /assets/images/photos/Guhan Zheng.png
 
 experience:
 - name: Lancaster University
+  logo: /assets/images/badges/lan_logo.svg
   position: Senior Research Associate
   date: 2023 - 2025
 - name: University of Sussex
+  logo: /assets/images/badges/sussex_logo.png
   position: Research Assistant
   date: 2023
 
 
 education:
 - name: Lancaster University
+  logo: /assets/images/badges/lan_logo.svg
   position: Ph.D. in Communication Systems
   date: 2020 - 2024
 - name: Zhengzhou University
+  logo: /assets/images/badges/zzu.png
   position: B.Eng. in Telecommunication Engineering
   date: 2016 - 2020
 
