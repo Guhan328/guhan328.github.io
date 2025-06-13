@@ -9,19 +9,25 @@ navbar_title: Home
 
 {% include widgets/debug_url.html %}
 
+{% if site.data.display.homepage.show_interest %}
+    {% include widgets/interest_card.html %}
+{% endif %}
+
+
 {% if site.data.display.homepage.show_experience %}
     {% include widgets/experience_card.html %}
 {% endif %}
 
-{% if site.data.display.homepage.show_news %}
-    {% assign count_news = site.news | size %}
-    {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-    {% endif %}
+{% if site.data.display.homepage.show_grants %}
+    {% include widgets/grants_card.html %}
 {% endif %}
 
-
 {% include widgets/publication_card.html publications=site.data.publication %}
+
+{% if site.data.display.homepage.show_members %}
+    {% include widgets/members_card.html %}
+{% endif %}
+
 
 {% if site.data.display.homepage.show_service %}
     {% include widgets/service_card.html service=site.data.service %}
