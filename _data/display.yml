@@ -1,6 +1,6 @@
 homepage:
   show_experience: true
-  show_interest: false
+  show_interest: true
   show_grants: false
   show_members: false
   show_service: true
