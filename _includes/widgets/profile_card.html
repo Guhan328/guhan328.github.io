@@ -2,43 +2,26 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-5">
-                <div class="row">
-                    <div class="col-md-3">
-                        {% if site.data.profile.portrait_url %}
-                        <div class="text-center mb-4 mb-md-0">  <!-- 移动端下增加底部间距 -->
-                            <img 
-                                src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="img-fluid img-thumbnail" 
-                                style="max-height: 200px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}">
-                        </div>
-                        {% endif %}
+                <!-- 照片和简介部分 -->
+                <div style="overflow: auto;">  <!-- 添加清除浮动的容器 -->
+                    {% if site.data.profile.portrait_url %}
+                    <div style="float: left; margin-right: 20px; margin-bottom: 15px;">
+                        <img 
+                            src="{{ site.data.profile.portrait_url | relative_url }}" 
+                            class="img-fluid img-thumbnail" 
+                            style="max-height: 200px;"
+                            data-toggle="tooltip" 
+                            data-placement="top" 
+                            title="{{ site.data.profile.portrait_caption }}">
                     </div>
-
-                        <div class="col-md-9">
-                        <div class="d-flex">
-                            <div class="h2 font-weight-normal">
-                                {{ site.data.profile.primary_name }} 
-                                <small>{{ site.data.profile.secondary_name }}</small>
-                            </div>
-                        </div>
-                        
-                        <div class="text-profile-position fs-4">
-                            {% for position in site.data.profile.positions %}
-                            {{ position.name }}{% unless forloop.last %}<br/>{% endunless %}
-                            {% endfor %}
-                        </div>
-                        <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
-                            {{ site.data.profile.short_bio }}
-                        </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
-                        {% endif %}
+                    {% endif %}
+                    
+                    <div class="text-profile-bio" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
+                        {{ site.data.profile.short_bio }}
                     </div>
-        
                 </div>
+
+                <!-- 联系信息部分 -->
                 <hr />
                 <div class="row">
                     <div class="col">
