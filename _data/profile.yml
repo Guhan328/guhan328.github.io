@@ -1,9 +1,9 @@
-#primary_name: "Guhan Zheng"
-secondary_name: ""
-navbar_name: "Guhan Zheng (郑谷寒)"
+primary_name: "Guhan Zheng"
+secondary_name: "郑谷寒"
+#navbar_name: "Guhan Zheng (郑谷寒)"
 
-#positions:
-#- name: Senior Research Associate at Lancaster University
+positions:
+- name: Senior Research Associate at Lancaster University
 
 
 email: "guhan.zheng@ieee.org"
@@ -24,6 +24,9 @@ short_bio: >-
   In 2023, I was a Research Assistant at the University of Sussex, Brighton, U.K., working with <a href="https://sites.google.com/view/aryankaushik/home" target="_blank">Prof. Aryan Kaushik</a>. 
   I received my Ph.D. degree in communication systems from Lancaster University, Lancaster, U.K., in 2024, under the supervision of <a href="https://www.lancaster.ac.uk/scc/about-us/people/qiang-ni" target="_blank">Prof. Qiang Ni</a> 
   and <a href="https://www.lancaster.ac.uk/scc/about-us/people/keivan-navaie" target="_blank">Prof. Keivan Navaie</a>.
+  </p>
+
+  
 
 portrait_url: /assets/images/photos/Guhan Zheng.png
 #portrait_caption: >-
