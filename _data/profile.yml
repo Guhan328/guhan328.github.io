@@ -3,7 +3,9 @@ primary_name: "Guhan Zheng"
 #navbar_name: "Guhan Zheng (郑谷寒)"
 
 positions:
-- name: Senior Research Associate at Lancaster University
+  - name: "Senior Research Associate"
+    school_name: "Lancaster University"
+    school_logo: "/assets/images/badges/lan_logo.png"
 
 
 email: "guhan.zheng@ieee.org"
