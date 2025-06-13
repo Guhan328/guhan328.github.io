@@ -1,7 +1,7 @@
 homepage:
   show_experience: true
-  show_news: False
-  show_selected_publications: true
+  show_grants: false
+  show_members: false
   show_service: true
 
 
