@@ -1,28 +1,33 @@
 @charset "utf-8";
+
+/* 基础字体设置（英文Lato，中文楷体） */
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", "KaiTi", "STKaiti", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
+/* 标题字体（保持加粗） */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
 }
 
+/* 特殊文本区域 */
 .text-profile-position {
     font-weight: 400;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
 }
 
+/* 导航栏 */
 .navbar {
     opacity: 0.95;
 }
 
+/* 徽章样式 */
 .inline-badge {
     height: 16px;
     vertical-align: -10%;
@@ -34,6 +39,7 @@ h1, h2, h3, h4, h5, h6,
     white-space: nowrap;
 }
 
+/* 图片相关 */
 .cover-image {
     width: 180px;
     max-height: 120px;
@@ -59,11 +65,17 @@ div.lazy {
     min-height: 80px;
 }
 
+/* 出版物徽章 */
 .badge-publication {
     font-size: 100%;
 }
 
-.email-text {
-    font-family: Courier, monospace;
+/* 代码和等宽文本 */
+pre, code, .email-text {
+    font-family: Courier, monospace; /* 保持等宽字体 */
 }
 
+/* 可选：强制特定区域使用楷体 */
+.chinese-kai {
+    font-family: "KaiTi", "STKaiti", serif;
+}
