@@ -2,7 +2,7 @@ homepage:
   show_experience: true
   show_interest: true
   show_grants: true
-  show_members: false
+  show_members: true
   show_service: true
 
 
