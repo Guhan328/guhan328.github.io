@@ -1,7 +1,7 @@
 
 
 - title: "Towards Fairness and Green Semantic Communication System: An Anti-discrimination Federated Learning Approach"
-  authors: "**G. Zheng**, Z. Yu, H. Pervaiz, L. Zhang, H. Jung, and S. Hassan"
+  authors: "**G. Zheng**, Z. Yu*, H. Pervaiz, L. Zhang, H. Jung, and S. Hassan"
   pub: IEEE International Conference on Communications (ICC)
   pub_date: 2025
   #links:
@@ -9,7 +9,7 @@
 
 
 - title: "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges"
-  authors: "**G. Zheng**, Q. Ni, A. Kaushik, and L. Yang"
+  authors: "**G. Zheng***, Q. Ni, A. Kaushik, and L. Yang"
   pub: arXiv preprint
   pub_date: 2025
   links:
@@ -17,7 +17,7 @@
 
 
 - title: "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, and C. Zarakovitis"
+  authors: "**G. Zheng**, Q. Ni*, K. Navaie, and C. Zarakovitis"
   pub: IEEE Transactions on Intelligent Transportation Systems
   pub_date: 2025
   links:
@@ -25,7 +25,7 @@
 
 
 - title: "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, and H. Pervaiz"
+  authors: "**G. Zheng**, Q. Ni*, K. Navaie, and H. Pervaiz"
   pub: IEEE Journal on Selected Areas in Communications
   pub_date: 2024
   links:
@@ -33,14 +33,14 @@
   spotlight: true
 
 - title: "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System"
-  authors: "**G. Zheng**, Q. Ni, and Y. Lu"
+  authors: "**G. Zheng**, Q. Ni*, and Y. Lu"
   pub: IEEE Transactions on Intelligent Transportation Systems
   pub_date: 2024
   links:
     - ["Link", "https://ieeexplore.ieee.org/document/10734671"]
 
 - title: "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis"
+  authors: "**G. Zheng**, Q. Ni*, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis"
   pub: IEEE Internet of Things Journal
   pub_date: 2024
   links:
@@ -48,14 +48,14 @@
 
 
 - title: "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis"
+  authors: "**G. Zheng**, Q. Ni*, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis"
   pub: IEEE Transactions on Green Communications and Networking
   pub_date: 2024
   links:
     - ["Link", "https://ieeexplore.ieee.org/document/10527365"]    
 
 - title: "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading"
-  authors: "**G. Zheng**, Q. Ni, K. Navaie, H. Pervaiz and C. Zarakovitis"
+  authors: "**G. Zheng***, Q. Ni, K. Navaie, H. Pervaiz and C. Zarakovitis"
   pub: IEEE Communications Magazine
   pub_date: 2023
   links:
