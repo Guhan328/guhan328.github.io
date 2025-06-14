@@ -10,11 +10,11 @@
     </h5>
 
     <div class="p-3">
-        {% if members.undergraduate %}
+        {% if site.data.members.undergraduate %}
             <div class="mb-2">
                 <strong>Undergraduate Students</strong>
                 <div class="pl-3">
-                    {% for item in members.undergraduate %}
+                    {% for item in site.data.members.undergraduate %}
                         <div class="mb-1">
                             {{ item.name }}, {{ item.year }}, {{ item.achievement }}
                         </div>
@@ -23,11 +23,11 @@
             </div>
         {% endif %}
 
-        {% if members.master %}
+        {% if site.data.members.master %}
             <div class="mb-2">
                 <strong>Master Students</strong>
                 <div class="pl-3">
-                    {% for item in members.master %}
+                    {% for item in site.data.members.master %}
                         <div class="mb-1">
                             {{ item.name }}, {{ item.year }}, {{ item.achievement }}
                         </div>
@@ -36,11 +36,11 @@
             </div>
         {% endif %}
 
-        {% if members.phd %}
+        {% if site.data.members.phd %}
             <div class="mb-2">
                 <strong>PhD Students</strong>
                 <div class="pl-3">
-                    {% for item in members.phd %}
+                    {% for item in site.data.members.phd %}
                         <div class="mb-1">
                             {{ item.name }}, {{ item.year }}, {{ item.achievement }}
                         </div>
