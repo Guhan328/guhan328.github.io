@@ -1,7 +1,7 @@
 homepage:
   show_experience: true
   show_interest: true
-  show_grants: false
+  show_grants: true
   show_members: false
   show_service: true
 
