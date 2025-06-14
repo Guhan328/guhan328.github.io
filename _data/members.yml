@@ -1,1 +1,26 @@
 
+
+
+ undergraduate:
+    - name: "Li Hua"
+      year: "2022"
+      achievement: "Published 1 conference paper"
+    - name: "Wang Wei"
+      year: "2023"
+      achievement: "National Scholarship recipient"
+
+  master:
+    - name: "Zhang Lei"
+      year: "2021"
+      achievement: "2 SCI journal papers"
+    - name: "Chen Fang"
+      year: "2022"
+      achievement: "IEEE conference paper"
+
+  phd:
+    - name: "Liu Yang"
+      year: "2020"
+      achievement: "First author on top journal"
+    - name: "Sun Qian"
+      year: "2019"
+      achievement: "Patent granted"
