@@ -1,1 +1,55 @@
+{% assign members = include.members %}
+<div id="member" style="position: relative; top: -80px; visibility: hidden; height: 0;"></div>
+<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
+    <h5 class="border-bottom border-gray p-3 mb-0">
+        {% if include.title %}
+            {{ include.title }}
+        {% else %}
+            Members
+        {% endif %}
+    </h5>
+
+    <div class="p-3">
+        {% if members.undergraduate %}
+            <div class="mb-2">
+                <strong>Undergraduate Students</strong>
+                <div class="pl-3">
+                    {% for item in members.undergraduate %}
+                        <div class="mb-1">
+                            {{ item.name }}, {{ item.year }}, {{ item.achievement }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+
+        {% if members.master %}
+            <div class="mb-2">
+                <strong>Master Students</strong>
+                <div class="pl-3">
+                    {% for item in members.master %}
+                        <div class="mb-1">
+                            {{ item.name }}, {{ item.year }}, {{ item.achievement }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+
+        {% if members.phd %}
+            <div class="mb-2">
+                <strong>PhD Students</strong>
+                <div class="pl-3">
+                    {% for item in members.phd %}
+                        <div class="mb-1">
+                            {{ item.name }}, {{ item.year }}, {{ item.achievement }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+
 
